@@ -1,0 +1,9 @@
+markdown: rdiscount
+permalink: pretty
+title: Mobify &ndash; Pikabu
+
+baseurl: /pikabu/
+
+sass:
+    syntax: scss        # scss|sass
+    style:  compact  # nested|expanded|compact|compressed
