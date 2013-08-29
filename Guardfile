@@ -14,18 +14,9 @@
 #
 # Like usual, the Compass configuration path are relative to the :project_path
 
-guard 'compass', :configuration_file => 'config.rb'
+guard 'compass', :project_path => './', :configuration_file => 'config.rb'
 
 guard 'jekyll' do
   watch /.*/
   ignore /_site/
-end
-
-guard 'livereload' do
-  watch(%r{app/views/.+\.(erb|haml|slim)$})
-  watch(%r{app/helpers/.+\.rb})
-  watch(%r{public/.+\.(css|js|html)})
-  watch(%r{config/locales/.+\.yml})
-  # Rails Assets Pipeline
-  watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html))).*}) { |m| "/assets/#{m[3]}" }
 end
