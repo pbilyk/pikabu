@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: pretty
-title: Mobify &ndash; Pikabu
 
+title: Mobify &ndash; Pikabu
 baseurl: /pikabu/
 
 sass:

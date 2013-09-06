@@ -9,7 +9,8 @@
 
     <link rel="stylesheet" href="//cdn.mobify.com/modules/pikabu/0.1.0/pikabu.css">
     <link rel="stylesheet" href="//cdn.mobify.com/modules/pikabu/0.1.0/pikabu-theme.css">
-
+    <link rel="stylesheet" href="{{ site.baseurl }}static/js/highlight/styles/github.css">
+    
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/main.css?version=2">
     <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
 
@@ -56,7 +57,10 @@
 <body class="{{ page.bodyclass }}">
     <div class="viewport">
         <div class="header">
-            <h1>{{ page.title }}</h1>
+            
+            <h1>
+                <img class="logo" src="{{ page.logo }}" alt="{{ page.title }}">{{ page.title }}
+            </h1>
             <h2>{{ page.subtitle }}</h2>
         </div>
 
@@ -71,12 +75,12 @@
             </p>
             
             <p class="nav pull-right">
-                <a href="//twitter.com/mobify" title="Mobify on Twitter">
-                    <i class="icon-twitter"></i>@mobify
+                <a class="social-links" href="//twitter.com/mobify" title="Mobify on Twitter">
+                    <i class="icon-twitter"></i> @mobify
                 </a>
-            
-                <a href="//github.com/mobify/scooch" title="Mobify on Github">
-                    <i class="icon-github"></i>Github
+                
+                <a class="social-links" href="//github.com/mobify/pikabu" title="Mobify on Github">
+                    <i class="icon-github"></i> Github
                 </a>
             </p>
 

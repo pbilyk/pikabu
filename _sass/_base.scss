@@ -1,0 +1,38 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a { 
+    color: $redMedium;
+    text-decoration: underline;
+}
+
+p, ul, table, blockquote {
+    margin: 0 0 0.5em 0;
+}
+
+dt {
+    float: left;
+    clear: both;
+    margin-right: 0.5em;
+    &:after {
+        content: ':';
+    }
+}
+
+dd {
+    margin-left: 0;
+}
+
+dd, dt {
+    margin-bottom: 0.5em;
+}
+
+pre {
+    font-size: 14px;
+    // padding: 8px;
+    // background-color: #222;
+    white-space: pre-wrap;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}

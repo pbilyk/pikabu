@@ -1,9 +1,9 @@
 // the goal is to remove this...
-@import 'bootstrap';
 // libraries
-@import 'syntax';
+@import 'defaults';
+@import 'buttons';
 @import 'font-awesome';
 @import 'font-awesome-ie7';
-@import 'typography';
+@import 'base';
 // main layout
 @import 'mobify-modules';
